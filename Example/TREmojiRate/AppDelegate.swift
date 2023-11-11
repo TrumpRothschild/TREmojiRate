@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TREmojiRate
 //
-//  Created by TrumpRothschild on 11/11/2023.
+//  Created by TrumpRothschild on 11/12/2023.
 //  Copyright (c) 2023 TrumpRothschild. All rights reserved.
 //
 

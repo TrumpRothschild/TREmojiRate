@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AAA178BEBB945801E98C2FF /* Pods_TREmojiRate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AE485146622F54EC5E3EFD /* Pods_TREmojiRate_Tests.framework */; };
-		4EE9212E95505BEA542948BB /* Pods_TREmojiRate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE595A1B801760CB84081EC3 /* Pods_TREmojiRate_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		989D25CF18C8F60628A6B728 /* Pods_TREmojiRate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F14BA18A709FA33866128F /* Pods_TREmojiRate_Example.framework */; };
+		E037C7006500ADC726C0F407 /* Pods_TREmojiRate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5918EF35CCDACBFA838F8242 /* Pods_TREmojiRate_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B39FC55E4F607666832379F /* Pods-TREmojiRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Example.release.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Example/Pods-TREmojiRate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		01C38EBC592D672ACEEB0B81 /* Pods-TREmojiRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Example.debug.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Example/Pods-TREmojiRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08F14BA18A709FA33866128F /* Pods_TREmojiRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TREmojiRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		099C7930956F46C968E86632 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F1E865BB64262565A14AA96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4023C48509EA0EA8995A2E4A /* TREmojiRate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TREmojiRate.podspec; path = ../TREmojiRate.podspec; sourceTree = "<group>"; };
+		51CE7C01055139C29C2DE705 /* Pods-TREmojiRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Example.release.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Example/Pods-TREmojiRate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5918EF35CCDACBFA838F8242 /* Pods_TREmojiRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TREmojiRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9C6C75A111E20E33BECFED /* Pods-TREmojiRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TREmojiRate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TREmojiRate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +46,7 @@
 		607FACE51AFB9204008FA782 /* TREmojiRate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TREmojiRate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B97380A6BCC32B5614D0F8B /* TREmojiRate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TREmojiRate.podspec; path = ../TREmojiRate.podspec; sourceTree = "<group>"; };
-		884239D472B5530D3416115C /* Pods-TREmojiRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Example.debug.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Example/Pods-TREmojiRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A7468A499DBCACBBCA953C1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A85B2521313786199063D033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B63C511BCFA345D539D5B0B8 /* Pods-TREmojiRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6AE485146622F54EC5E3EFD /* Pods_TREmojiRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TREmojiRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE595A1B801760CB84081EC3 /* Pods_TREmojiRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TREmojiRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E931ABC5F83D2C2B7EB28344 /* Pods-TREmojiRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Tests.release.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D2020AA2D593B321DA091B9C /* Pods-TREmojiRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TREmojiRate_Tests.release.xcconfig"; path = "Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE9212E95505BEA542948BB /* Pods_TREmojiRate_Example.framework in Frameworks */,
+				989D25CF18C8F60628A6B728 /* Pods_TREmojiRate_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAA178BEBB945801E98C2FF /* Pods_TREmojiRate_Tests.framework in Frameworks */,
+				E037C7006500ADC726C0F407 /* Pods_TREmojiRate_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for TREmojiRate */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				A1752C62A820F3892A6E5483 /* Pods */,
-				A06D92352C71BBDFC0256666 /* Frameworks */,
+				61A27C39B5857645F55E69A4 /* Pods */,
+				CC0F8B29001BCD010280C021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,32 +132,32 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				7B97380A6BCC32B5614D0F8B /* TREmojiRate.podspec */,
-				A7468A499DBCACBBCA953C1F /* README.md */,
-				A85B2521313786199063D033 /* LICENSE */,
+				4023C48509EA0EA8995A2E4A /* TREmojiRate.podspec */,
+				2F1E865BB64262565A14AA96 /* README.md */,
+				099C7930956F46C968E86632 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A06D92352C71BBDFC0256666 /* Frameworks */ = {
+		61A27C39B5857645F55E69A4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE595A1B801760CB84081EC3 /* Pods_TREmojiRate_Example.framework */,
-				B6AE485146622F54EC5E3EFD /* Pods_TREmojiRate_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1752C62A820F3892A6E5483 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				884239D472B5530D3416115C /* Pods-TREmojiRate_Example.debug.xcconfig */,
-				4B39FC55E4F607666832379F /* Pods-TREmojiRate_Example.release.xcconfig */,
-				B63C511BCFA345D539D5B0B8 /* Pods-TREmojiRate_Tests.debug.xcconfig */,
-				E931ABC5F83D2C2B7EB28344 /* Pods-TREmojiRate_Tests.release.xcconfig */,
+				01C38EBC592D672ACEEB0B81 /* Pods-TREmojiRate_Example.debug.xcconfig */,
+				51CE7C01055139C29C2DE705 /* Pods-TREmojiRate_Example.release.xcconfig */,
+				5A9C6C75A111E20E33BECFED /* Pods-TREmojiRate_Tests.debug.xcconfig */,
+				D2020AA2D593B321DA091B9C /* Pods-TREmojiRate_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC0F8B29001BCD010280C021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F14BA18A709FA33866128F /* Pods_TREmojiRate_Example.framework */,
+				5918EF35CCDACBFA838F8242 /* Pods_TREmojiRate_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TREmojiRate_Example" */;
 			buildPhases = (
-				1A6BDD5D52F6D944A38F0326 /* [CP] Check Pods Manifest.lock */,
+				55DB5DF48D10085AA798F6BA /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				DCF552FDAEFD65976B6F4195 /* [CP] Embed Pods Frameworks */,
+				D18C181B4AE42314C6BF17D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,11 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TREmojiRate_Tests" */;
 			buildPhases = (
-				695800C8622BCF091034CFC2 /* [CP] Check Pods Manifest.lock */,
+				1C30FAE1F67EC26BC6C5C975 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				C2308012B4C6AE2DB27343CA /* [CP] Embed Pods Frameworks */,
+				8852FA5BF6F6DD9586AFD4D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,29 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A6BDD5D52F6D944A38F0326 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TREmojiRate_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		695800C8622BCF091034CFC2 /* [CP] Check Pods Manifest.lock */ = {
+		1C30FAE1F67EC26BC6C5C975 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,7 +285,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2308012B4C6AE2DB27343CA /* [CP] Embed Pods Frameworks */ = {
+		55DB5DF48D10085AA798F6BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TREmojiRate_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8852FA5BF6F6DD9586AFD4D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,17 +315,24 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TREmojiRate_Tests/Pods-TREmojiRate_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCF552FDAEFD65976B6F4195 /* [CP] Embed Pods Frameworks */ = {
+		D18C181B4AE42314C6BF17D1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,7 +501,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 884239D472B5530D3416115C /* Pods-TREmojiRate_Example.debug.xcconfig */;
+			baseConfigurationReference = 01C38EBC592D672ACEEB0B81 /* Pods-TREmojiRate_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TREmojiRate/Info.plist;
@@ -509,7 +516,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B39FC55E4F607666832379F /* Pods-TREmojiRate_Example.release.xcconfig */;
+			baseConfigurationReference = 51CE7C01055139C29C2DE705 /* Pods-TREmojiRate_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TREmojiRate/Info.plist;
@@ -524,7 +531,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B63C511BCFA345D539D5B0B8 /* Pods-TREmojiRate_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5A9C6C75A111E20E33BECFED /* Pods-TREmojiRate_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -546,7 +553,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E931ABC5F83D2C2B7EB28344 /* Pods-TREmojiRate_Tests.release.xcconfig */;
+			baseConfigurationReference = D2020AA2D593B321DA091B9C /* Pods-TREmojiRate_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
