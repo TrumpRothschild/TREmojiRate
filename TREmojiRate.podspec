@@ -31,14 +31,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
+  
   s.source_files = 'TREmojiRate/Classes/**/*'
  
   # s.resource_bundles = {
   #   'TREmojiRate' => ['TREmojiRate/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'TREmojiRate/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

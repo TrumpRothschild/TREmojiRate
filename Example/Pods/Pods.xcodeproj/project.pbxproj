@@ -53,7 +53,6 @@
 		42C0DB1DDB90315C0367B06999DDAB61 /* TREmojiRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AB730DE51AA6CEAEA3B8280712FF5F /* TREmojiRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46F4F01ADC99BD01008AB43AAA826EF4 /* TREmojiRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0457308B6F19FDD0083F8CDED802191 /* TREmojiRate-dummy.m */; };
 		48C10B9A539A0C5ABB40C060BCFA6A5D /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF0E9ED1148AD7385E49F70D19C738 /* QuickTestObservation.swift */; };
-		4A20C69079C8110E4F73CB019360CB9C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B33214973E30CE64E4A6A98365B5D8 /* ReplaceMe.swift */; };
 		4A457767C9968D139BD8AAD877DFC117 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F192B0451F4615645ED2162C27B05 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4AB3E5CA752435B21E7EBC018EE8CE58 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC86693C4D16C87D1C344088392EE4 /* ExampleMetadata.swift */; };
 		4AFE77D225E183E14A781F478E097858 /* XCTestObservationCenter+CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 752486F299AB1B2C3CFDA0A0822B77D2 /* XCTestObservationCenter+CurrentTestCaseTracker.m */; };
@@ -128,6 +127,12 @@
 		A0C818D7D910C541D5F1E5A593F1703E /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D53C3D478926059E89510E2B0BFEBB2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F1DDBCD61B35967DED6A8F6A69B9A5 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7198C072E604096801826BDA3A206 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A16976792DA17A0C6C3F61B8463F9D17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A428E6852AFFE66300F344A0 /* EmojiRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428E6842AFFE66300F344A0 /* EmojiRateView.swift */; };
+		A428E6862AFFE66300F344A0 /* EmojiRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428E6842AFFE66300F344A0 /* EmojiRateView.swift */; };
+		A428E6872AFFE66300F344A0 /* EmojiRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428E6842AFFE66300F344A0 /* EmojiRateView.swift */; };
+		A428E6892AFFE66B00F344A0 /* TREmojiRate.h in Headers */ = {isa = PBXBuildFile; fileRef = A428E6882AFFE66B00F344A0 /* TREmojiRate.h */; };
+		A428E68A2AFFE66B00F344A0 /* TREmojiRate.h in Headers */ = {isa = PBXBuildFile; fileRef = A428E6882AFFE66B00F344A0 /* TREmojiRate.h */; };
+		A428E68B2AFFE66B00F344A0 /* TREmojiRate.h in Headers */ = {isa = PBXBuildFile; fileRef = A428E6882AFFE66B00F344A0 /* TREmojiRate.h */; };
 		A487451E3CC40D7F9549FA292435273B /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8894D8B641F78A560D09510679AA9A /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A4AF43E2D7CE05E03A4C711E074CC212 /* UIApplication+KeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4A26E65EEFB60AFA343343CED12A5A /* UIApplication+KeyWindow.m */; };
 		A56364129DF42515334188FA0FD12975 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF69E0B8FE83F7CCDE724E7833C2C23 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -271,7 +276,7 @@
 		11BD37E504F474A92653142FE7AEF9C7 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
 		12DC4A7161D0A086944B3A4A298849BF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		153EA0170B4C6BDF69962E71AA394BC0 /* NBSMockedApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBSMockedApplication.swift; path = Nimble_Snapshots/DynamicType/NBSMockedApplication.swift; sourceTree = "<group>"; };
-		18AED88AE05C7D591E17520AFA173F89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		18AED88AE05C7D591E17520AFA173F89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		197BC58044784CE3B2A2E927E4CBAA53 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = src/iOSSnapshotTestCaseCore/Public/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		1B61E43F2F03325374DFF3B04274B277 /* Pods-TREmojiRate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TREmojiRate_Tests-dummy.m"; sourceTree = "<group>"; };
 		1BDD94137EF5A2CF037D72F4299CBB50 /* iOSSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -338,7 +343,7 @@
 		5FBF0E9ED1148AD7385E49F70D19C738 /* QuickTestObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestObservation.swift; path = Sources/Quick/QuickTestObservation.swift; sourceTree = "<group>"; };
 		65284B522A96707E684EF50EEF53BCAB /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
 		66207B9C0B05EC210AEDE882D08E66DD /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
-		66B2B5381A12B65F8583C363870B86FC /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		66B2B5381A12B65F8583C363870B86FC /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		66CAA83C89D73878355A5A54DEBDCDE7 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		67205E02E17938780DC89A2973DFA86C /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = src/iOSSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		688873779900FCAB8DC4BEF9A233A602 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
@@ -346,12 +351,11 @@
 		69E039CA9AC10D9A7A560905D78AA5BF /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		69FF642603B0461D2D737E11F02C33E5 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		6D53C3D478926059E89510E2B0BFEBB2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = src/iOSSnapshotTestCaseCore/Public/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		72B33214973E30CE64E4A6A98365B5D8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TREmojiRate/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		74F4407682EAFA9794947E787F98EB91 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "src/iOSSnapshotTestCaseCore/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		752486F299AB1B2C3CFDA0A0822B77D2 /* XCTestObservationCenter+CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+CurrentTestCaseTracker.m"; path = "Nimble_Snapshots/XCTestObservationCenter+CurrentTestCaseTracker.m"; sourceTree = "<group>"; };
 		7533B74A2A9D8F20D5552D816AA4DAD2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "src/iOSSnapshotTestCaseCore/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		766E9FAC67B70765AE1DFA1671ADD561 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
-		78A89F2791726C14C94008A968FD0D5A /* TREmojiRate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TREmojiRate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		78A89F2791726C14C94008A968FD0D5A /* TREmojiRate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TREmojiRate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		79560A4B87D6F4E60298D4389236F926 /* Nimble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.release.xcconfig; sourceTree = "<group>"; };
 		79CD1007396D5D6E537AB9AF748BD256 /* Pods-TREmojiRate_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TREmojiRate_Tests"; path = Pods_TREmojiRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA2E7F492A0C5D2D671023434839CAE /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickObjCRuntime/include/QuickSpecBase.h; sourceTree = "<group>"; };
@@ -379,7 +383,7 @@
 		975356AECB2A02D92574E0DFC26FE866 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		9754424770FF2952AC779E84330E532B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = src/iOSSnapshotTestCaseCore/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		98FBE52E5BD3CC70C3501DB30467C4EF /* Pods-TREmojiRate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TREmojiRate_Example-Info.plist"; sourceTree = "<group>"; };
-		9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TREmojiRate; path = TREmojiRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TREmojiRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9998AC251CEC953CE2A78B96915C9FA9 /* iOSSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		9A2F0AF12A6BC818445B0CEF14A9E707 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		9AE7BF8D88075F460A78E2C59D5FD780 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
@@ -387,12 +391,14 @@
 		9B9EF1B7AC9664C81D7C9CAE256D7FB4 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		9C11DCF28DFF0E73E7029256C8FD4C86 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		9CAE368316E69036065656F64473C429 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E19D38EE3F34390015CDCD794D0FDF0 /* Pods-TREmojiRate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TREmojiRate_Example.modulemap"; sourceTree = "<group>"; };
 		9F1CBE664A242D5F365032BFEB992206 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		A24BA9CD0853B871E834D0778F726A8C /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		A2DF7FDC813BB4B9AA1B54345A887C79 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "src/iOSSnapshotTestCaseCore/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		A3A0700EB7266473DA50A01C6E293685 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		A428E6842AFFE66300F344A0 /* EmojiRateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiRateView.swift; path = TREmojiRate/Classes/EmojiRateView.swift; sourceTree = "<group>"; };
+		A428E6882AFFE66B00F344A0 /* TREmojiRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TREmojiRate.h; path = TREmojiRate/Classes/TREmojiRate.h; sourceTree = "<group>"; };
 		A4B93C0DD98592F1DE1D24C9BD27D698 /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
 		A67660688912E704147C21BF3B5628F3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		A99DEBB92644AA6BEF4BEFEA05DB6625 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -453,7 +459,7 @@
 		E230D0A03CFD163044D989E335DD1F2A /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		E2AEA6DD42D1B4D65BCFE5EE708FCDD7 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		E31BA4B9FF18CE2CB9650A953BAFE9AE /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
-		E3C551665B108099E363D6E67D8F0BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3C551665B108099E363D6E67D8F0BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E5BD8B5328D68434C0A104B8A0FAC91F /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7FDF305A89DCE88B162ED9232AAC1D3 /* Pods-TREmojiRate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TREmojiRate_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -604,7 +610,6 @@
 				560D7F61EB73F96318EEE38132866C6A /* XCTestSuite+QuickTestSuiteBuilder.m */,
 				C957312B27C2388F1E7D4ACAB7DEA4A9 /* Support Files */,
 			);
-			name = Quick;
 			path = Quick;
 			sourceTree = "<group>";
 		};
@@ -716,7 +721,6 @@
 				E31BA4B9FF18CE2CB9650A953BAFE9AE /* XCTestObservationCenter+Register.m */,
 				24349DBE5A100DA61D5C18EE90D21551 /* Support Files */,
 			);
-			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -727,7 +731,6 @@
 				05908CC30F2221E4432E3013337E8DF3 /* Support Files */,
 				3B947F346DD3E5A53A5787B7B14FFCA9 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -780,7 +783,6 @@
 				0F0120225E4EF593C37AF258F2F439EF /* Support Files */,
 				15D7D272BFFEFA0FF99DBFA2DCD90216 /* SwiftSupport */,
 			);
-			name = iOSSnapshotTestCase;
 			path = iOSSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -798,7 +800,6 @@
 				D844DF874EB48049F512E636DBB10E33 /* Core */,
 				DCDF0F69CC4B3DC4EEEC4623A567930A /* Support Files */,
 			);
-			name = "Nimble-Snapshots";
 			path = "Nimble-Snapshots";
 			sourceTree = "<group>";
 		};
@@ -868,7 +869,7 @@
 				F8DCAC5E8C99568FCC0149281C13152C /* Pods-TREmojiRate_Example */,
 				79CD1007396D5D6E537AB9AF748BD256 /* Pods-TREmojiRate_Tests */,
 				0D631E9908483F9525A6B3F36F16CC61 /* Quick */,
-				9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate */,
+				9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -905,7 +906,8 @@
 		BA98E704E6D28561D622E6F1F19F22D8 /* TREmojiRate */ = {
 			isa = PBXGroup;
 			children = (
-				72B33214973E30CE64E4A6A98365B5D8 /* ReplaceMe.swift */,
+				A428E6882AFFE66B00F344A0 /* TREmojiRate.h */,
+				A428E6842AFFE66300F344A0 /* EmojiRateView.swift */,
 				85BD73A2DF717DC7CDDA11D9A1DAA072 /* Pod */,
 				26D0BC98F635062695D6BF548A7EDC0F /* Support Files */,
 			);
@@ -1007,6 +1009,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A428E68A2AFFE66B00F344A0 /* TREmojiRate.h in Headers */,
 				36C02EC8E1C1C4308D1A4EE313746405 /* QCKDSL.h in Headers */,
 				5DE358B668148D244DB531CE03A81D84 /* Quick.h in Headers */,
 				0B3EED9DC07A09EBF68C02D14B98E014 /* Quick-umbrella.h in Headers */,
@@ -1051,6 +1054,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C0DB1DDB90315C0367B06999DDAB61 /* TREmojiRate-umbrella.h in Headers */,
+				A428E68B2AFFE66B00F344A0 /* TREmojiRate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1085,6 +1089,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				A428E6892AFFE66B00F344A0 /* TREmojiRate.h in Headers */,
 				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
 				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
@@ -1150,7 +1155,7 @@
 			);
 			name = TREmojiRate;
 			productName = TREmojiRate;
-			productReference = 9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate */;
+			productReference = 9962AA2709C4B307FA6B87903ED313B5 /* TREmojiRate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91E9543DDF8D151DE9BDB5EDBBC3A636 /* Pods-TREmojiRate_Tests */ = {
@@ -1259,6 +1264,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7DCE44AF13D13B94D50597F7CCFE39DF = {
+						LastSwiftMigration = 1400;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1382,6 +1392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				915EA7F48607942BA78B96B434BE3E34 /* Behavior.swift in Sources */,
+				A428E6862AFFE66300F344A0 /* EmojiRateView.swift in Sources */,
 				6C60C7651EE9D59C150ECD60919024CB /* Callsite.swift in Sources */,
 				1D12D3BB1FB2542E6ED6887470BEA80B /* Closures.swift in Sources */,
 				E6E71178009EC496792C824BEE308527 /* Configuration.swift in Sources */,
@@ -1497,6 +1508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				A428E6852AFFE66300F344A0 /* EmojiRateView.swift in Sources */,
 				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
 				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
 				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
@@ -1512,8 +1524,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A20C69079C8110E4F73CB019360CB9C /* ReplaceMe.swift in Sources */,
 				46F4F01ADC99BD01008AB43AAA826EF4 /* TREmojiRate-dummy.m in Sources */,
+				A428E6872AFFE66300F344A0 /* EmojiRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1792,8 +1804,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1993,6 +2004,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F1E6F6B9B1B1AFA51D4569D4023EE50 /* TREmojiRate.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2025,6 +2037,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA66AAA78964A67005761EA542AA17B4 /* TREmojiRate.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2045,6 +2058,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
