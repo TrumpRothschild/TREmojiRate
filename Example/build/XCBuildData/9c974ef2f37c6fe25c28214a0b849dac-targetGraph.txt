@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+FBSnapshotTestCase in Pods, no dependencies
+TREmojiRate in Pods, no dependencies
+Pods-TREmojiRate_Example in Pods, depends on:
+TREmojiRate in Pods (explicit)
+Pods-TREmojiRate_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-TREmojiRate_Example in Pods (explicit)

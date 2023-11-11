@@ -1,0 +1,6 @@
+framework module TREmojiRate {
+  umbrella header "TREmojiRate-umbrella.h"
+
+  export *
+  module * { export * }
+}

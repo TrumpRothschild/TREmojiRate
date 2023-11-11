@@ -1,0 +1,6 @@
+framework module Pods_TREmojiRate_Tests {
+  umbrella header "Pods-TREmojiRate_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
